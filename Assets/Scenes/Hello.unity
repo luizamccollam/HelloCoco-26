@@ -1435,6 +1435,77 @@ MonoBehaviour:
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   headBodyPositionOffset: {x: 0, y: -0.54, z: 0}
   headBodyYawOffset: 0
+--- !u!95 &320203707 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 55eac348655cc17489df3bce1c8d14a6, type: 3}
+  m_PrefabInstance: {fileID: 2046926940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &320203708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320203700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61a144f4019577a4684e3c370e321322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationInputs:
+  - animationPropertyName: Right Pinch
+    action:
+      m_UseReference: 1
+      m_Action:
+        m_Name: Action
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: 96bc6a86-200a-4f66-b3a8-50ef034db483
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - animationPropertyName: Right Grab
+    action:
+      m_UseReference: 1
+      m_Action:
+        m_Name: Action
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: 106865cc-4937-40b3-9480-ff445a2cfaed
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_Reference: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - animationPropertyName: Left Pinch
+    action:
+      m_UseReference: 1
+      m_Action:
+        m_Name: Action
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: c37a3eb9-4f3e-4a1b-954d-b7284263746f
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_Reference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - animationPropertyName: Left Grab
+    action:
+      m_UseReference: 1
+      m_Action:
+        m_Name: Action
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: 9a64d22d-458c-47b1-a0f4-356a5c6cc207
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  animator: {fileID: 320203707}
 --- !u!1 &342933853
 GameObject:
   m_ObjectHideFlags: 0
@@ -5542,6 +5613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VRCharacterRK
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 55eac348655cc17489df3bce1c8d14a6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1720c98616a0f194dae551fe7645b49b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5558,6 +5633,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 55eac348655cc17489df3bce1c8d14a6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 320203706}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 55eac348655cc17489df3bce1c8d14a6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 320203708}
   m_SourcePrefab: {fileID: 100100000, guid: 55eac348655cc17489df3bce1c8d14a6, type: 3}
 --- !u!4 &2046950579 stripped
 Transform:
