@@ -12579,3 +12579,1041 @@
 [2023-09-29 00:07:25.236] [pxr_streamer] [error] [21352|26220]transport_client_tcp2.cpp:116 operator (): recv error= 1236, msg= The network connection was aborted by the local system., this= 0x2500a058e20
 [2023-09-29 00:07:25.236] [pxr_streamer] [error] [21352|26220]transport_client_tcp2.cpp:129 HandleReceiveData: has been disconnected, this= 0x2500a058e20
 [2023-09-29 00:07:25.236] [pxr_streamer] [error] [21352|26220]transport_client_tcp2.cpp:105 StartAyncRecv: has been disconnected, this= 0x2500a058e20
+[2023-09-29 21:12:43.480] [pxr_streamer] [info] ***********  Log Begin **********
+[2023-09-29 21:12:43.480] [pxr_streamer] [info] process id= 11152
+[2023-09-29 21:12:43.480] [pxr_streamer] [info] [11152|10920]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x2301f9b29e0
+[2023-09-29 21:12:43.480] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x2313ce91c90, this= 0x23094484c40
+[2023-09-29 21:12:43.480] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= Undefined, this= 0x23094484c40
+[2023-09-29 21:12:43.480] [pxr_streamer] [error] [11152|10920]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x23094484c40
+[2023-09-29 21:12:43.480] [pxr_streamer] [info] [11152|10920]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x23094484c40
+[2023-09-29 21:12:43.480] [pxr_streamer] [debug] [11152|8212]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x23094484c40
+[2023-09-29 21:12:43.480] [pxr_streamer] [debug] [11152|8212]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x2313d11c220
+[2023-09-29 21:12:43.480] [pxr_streamer] [info] [11152|8212]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x2313d11c220
+[2023-09-29 21:12:45.517] [pxr_streamer] [error] [11152|14060]transport_client_tcp2.cpp:145 HandleConnect: connected error= No connection could be made because the target machine actively refused it., this= 0x2313d11c220
+[2023-09-29 21:12:45.518] [pxr_streamer] [info] [11152|14060]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 10061, this= 0x23094484c40
+[2023-09-29 21:12:45.518] [pxr_streamer] [error] [11152|8212]streaming_driver_interface_impl.cpp:438 HandleTransportConnect: connect to service error= 10061, this= 0x23094484c40
+[2023-09-29 21:19:37.385] [pxr_streamer] [info] [11152|10920]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x230cc982be0
+[2023-09-29 21:19:37.385] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x2313ef9d1e0, this= 0x23094485be0
+[2023-09-29 21:19:37.385] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x23094484c40
+[2023-09-29 21:19:37.385] [pxr_streamer] [info] [11152|10920]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x2301f9b29e0
+[2023-09-29 21:19:37.386] [pxr_streamer] [debug] [11152|10920]transport_client_tcp2.cpp:73 Stop: called, this= 0x2313d11c220
+[2023-09-29 21:19:37.387] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x23094485be0
+[2023-09-29 21:19:37.387] [pxr_streamer] [error] [11152|10920]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x23094485be0
+[2023-09-29 21:19:37.387] [pxr_streamer] [info] [11152|10920]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x23094485be0
+[2023-09-29 21:19:37.387] [pxr_streamer] [debug] [11152|18236]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x23094485be0
+[2023-09-29 21:19:37.387] [pxr_streamer] [debug] [11152|18236]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x2313f9830d0
+[2023-09-29 21:19:37.387] [pxr_streamer] [info] [11152|18236]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x2313f9830d0
+[2023-09-29 21:19:39.422] [pxr_streamer] [error] [11152|9148]transport_client_tcp2.cpp:145 HandleConnect: connected error= No connection could be made because the target machine actively refused it., this= 0x2313f9830d0
+[2023-09-29 21:19:39.422] [pxr_streamer] [info] [11152|9148]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 10061, this= 0x23094485be0
+[2023-09-29 21:19:39.422] [pxr_streamer] [error] [11152|18236]streaming_driver_interface_impl.cpp:438 HandleTransportConnect: connect to service error= 10061, this= 0x23094485be0
+[2023-09-29 21:20:22.642] [pxr_streamer] [info] [11152|10920]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x22ff3589540
+[2023-09-29 21:20:22.642] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x230903891d0, this= 0x23094485280
+[2023-09-29 21:20:22.642] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x23094485be0
+[2023-09-29 21:20:22.642] [pxr_streamer] [info] [11152|10920]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x230cc982be0
+[2023-09-29 21:20:22.642] [pxr_streamer] [debug] [11152|10920]transport_client_tcp2.cpp:73 Stop: called, this= 0x2313f9830d0
+[2023-09-29 21:20:22.643] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x23094485280
+[2023-09-29 21:20:22.643] [pxr_streamer] [error] [11152|10920]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x23094485280
+[2023-09-29 21:20:22.643] [pxr_streamer] [info] [11152|10920]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x23094485280
+[2023-09-29 21:20:22.643] [pxr_streamer] [debug] [11152|19968]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x23094485280
+[2023-09-29 21:20:22.643] [pxr_streamer] [debug] [11152|19968]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x22ffe646e10
+[2023-09-29 21:20:22.643] [pxr_streamer] [info] [11152|19968]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x22ffe646e10
+[2023-09-29 21:20:24.665] [pxr_streamer] [error] [11152|25188]transport_client_tcp2.cpp:145 HandleConnect: connected error= No connection could be made because the target machine actively refused it., this= 0x22ffe646e10
+[2023-09-29 21:20:24.665] [pxr_streamer] [info] [11152|25188]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 10061, this= 0x23094485280
+[2023-09-29 21:20:24.665] [pxr_streamer] [error] [11152|19968]streaming_driver_interface_impl.cpp:438 HandleTransportConnect: connect to service error= 10061, this= 0x23094485280
+[2023-09-29 21:22:00.629] [pxr_streamer] [info] [11152|10920]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x22ff358ac60
+[2023-09-29 21:22:00.629] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x2312d1268e0, this= 0x230944842e0
+[2023-09-29 21:22:00.629] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x23094485280
+[2023-09-29 21:22:00.629] [pxr_streamer] [info] [11152|10920]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x22ff3589540
+[2023-09-29 21:22:00.629] [pxr_streamer] [debug] [11152|10920]transport_client_tcp2.cpp:73 Stop: called, this= 0x22ffe646e10
+[2023-09-29 21:22:00.630] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x230944842e0
+[2023-09-29 21:22:00.630] [pxr_streamer] [error] [11152|10920]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x230944842e0
+[2023-09-29 21:22:00.630] [pxr_streamer] [info] [11152|10920]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x230944842e0
+[2023-09-29 21:22:00.630] [pxr_streamer] [debug] [11152|25364]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x230944842e0
+[2023-09-29 21:22:00.630] [pxr_streamer] [debug] [11152|25364]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x2313cdea830
+[2023-09-29 21:22:00.630] [pxr_streamer] [info] [11152|25364]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x2313cdea830
+[2023-09-29 21:22:02.648] [pxr_streamer] [error] [11152|15884]transport_client_tcp2.cpp:145 HandleConnect: connected error= No connection could be made because the target machine actively refused it., this= 0x2313cdea830
+[2023-09-29 21:22:02.648] [pxr_streamer] [info] [11152|15884]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 10061, this= 0x230944842e0
+[2023-09-29 21:22:02.648] [pxr_streamer] [error] [11152|25364]streaming_driver_interface_impl.cpp:438 HandleTransportConnect: connect to service error= 10061, this= 0x230944842e0
+[2023-09-29 21:37:38.026] [pxr_streamer] [info] [11152|10920]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x22ffc4ef850
+[2023-09-29 21:37:38.026] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x230ccb0aad0, this= 0x23094483340
+[2023-09-29 21:37:38.026] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x230944842e0
+[2023-09-29 21:37:38.026] [pxr_streamer] [info] [11152|10920]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x22ff358ac60
+[2023-09-29 21:37:38.026] [pxr_streamer] [debug] [11152|10920]transport_client_tcp2.cpp:73 Stop: called, this= 0x2313cdea830
+[2023-09-29 21:37:38.027] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x23094483340
+[2023-09-29 21:37:38.027] [pxr_streamer] [error] [11152|10920]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x23094483340
+[2023-09-29 21:37:38.027] [pxr_streamer] [info] [11152|10920]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x23094483340
+[2023-09-29 21:37:38.027] [pxr_streamer] [debug] [11152|25112]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x23094483340
+[2023-09-29 21:37:38.027] [pxr_streamer] [debug] [11152|25112]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x22ffec17810
+[2023-09-29 21:37:38.027] [pxr_streamer] [info] [11152|25112]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x22ffec17810
+[2023-09-29 21:37:40.074] [pxr_streamer] [error] [11152|13864]transport_client_tcp2.cpp:145 HandleConnect: connected error= No connection could be made because the target machine actively refused it., this= 0x22ffec17810
+[2023-09-29 21:37:40.074] [pxr_streamer] [info] [11152|13864]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 10061, this= 0x23094483340
+[2023-09-29 21:37:40.074] [pxr_streamer] [error] [11152|25112]streaming_driver_interface_impl.cpp:438 HandleTransportConnect: connect to service error= 10061, this= 0x23094483340
+[2023-09-29 21:45:43.206] [pxr_streamer] [info] [11152|10920]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x22ff35831c0
+[2023-09-29 21:45:43.206] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x22ffce4ccd0, this= 0x23094483ca0
+[2023-09-29 21:45:43.206] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x23094483340
+[2023-09-29 21:45:43.206] [pxr_streamer] [info] [11152|10920]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x22ffc4ef850
+[2023-09-29 21:45:43.206] [pxr_streamer] [debug] [11152|10920]transport_client_tcp2.cpp:73 Stop: called, this= 0x22ffec17810
+[2023-09-29 21:45:43.206] [pxr_streamer] [debug] [11152|10920]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x23094483ca0
+[2023-09-29 21:45:43.206] [pxr_streamer] [error] [11152|10920]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x23094483ca0
+[2023-09-29 21:45:43.206] [pxr_streamer] [info] [11152|10920]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x23094483ca0
+[2023-09-29 21:45:43.206] [pxr_streamer] [debug] [11152|18524]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x23094483ca0
+[2023-09-29 21:45:43.206] [pxr_streamer] [debug] [11152|18524]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x2313d776a60
+[2023-09-29 21:45:43.206] [pxr_streamer] [info] [11152|18524]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x2313d776a60
+[2023-09-29 21:45:45.244] [pxr_streamer] [error] [11152|26388]transport_client_tcp2.cpp:145 HandleConnect: connected error= No connection could be made because the target machine actively refused it., this= 0x2313d776a60
+[2023-09-29 21:45:45.244] [pxr_streamer] [info] [11152|26388]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 10061, this= 0x23094483ca0
+[2023-09-29 21:45:45.244] [pxr_streamer] [error] [11152|18524]streaming_driver_interface_impl.cpp:438 HandleTransportConnect: connect to service error= 10061, this= 0x23094483ca0
+[2023-10-03 16:23:46.909] [pxr_streamer] [info] ***********  Log Begin **********
+[2023-10-03 16:23:46.909] [pxr_streamer] [info] process id= 26060
+[2023-10-03 16:23:46.909] [pxr_streamer] [info] [26060|9332]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1f1e40362d0
+[2023-10-03 16:23:46.909] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1f3b1665bb0, this= 0x1f1ecdd8160
+[2023-10-03 16:23:46.909] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= Undefined, this= 0x1f1ecdd8160
+[2023-10-03 16:23:46.909] [pxr_streamer] [error] [26060|9332]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1f1ecdd8160
+[2023-10-03 16:23:46.909] [pxr_streamer] [info] [26060|9332]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1f1ecdd8160
+[2023-10-03 16:23:46.909] [pxr_streamer] [debug] [26060|2944]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1f1ecdd8160
+[2023-10-03 16:23:46.909] [pxr_streamer] [debug] [26060|2944]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1f48400e250
+[2023-10-03 16:23:46.909] [pxr_streamer] [info] [26060|2944]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1f48400e250
+[2023-10-03 16:23:48.941] [pxr_streamer] [error] [26060|20628]transport_client_tcp2.cpp:145 HandleConnect: connected error= No connection could be made because the target machine actively refused it., this= 0x1f48400e250
+[2023-10-03 16:23:48.941] [pxr_streamer] [info] [26060|20628]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 10061, this= 0x1f1ecdd8160
+[2023-10-03 16:23:48.941] [pxr_streamer] [error] [26060|2944]streaming_driver_interface_impl.cpp:438 HandleTransportConnect: connect to service error= 10061, this= 0x1f1ecdd8160
+[2023-10-03 16:26:22.366] [pxr_streamer] [info] [26060|9332]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1f4e5dc0940
+[2023-10-03 16:26:22.366] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1f482e34ea0, this= 0x1f3f95cc2b0
+[2023-10-03 16:26:22.366] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x1f1ecdd8160
+[2023-10-03 16:26:22.366] [pxr_streamer] [info] [26060|9332]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x1f1e40362d0
+[2023-10-03 16:26:22.366] [pxr_streamer] [debug] [26060|9332]transport_client_tcp2.cpp:73 Stop: called, this= 0x1f48400e250
+[2023-10-03 16:26:22.367] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1f3f95cc2b0
+[2023-10-03 16:26:22.367] [pxr_streamer] [error] [26060|9332]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1f3f95cc2b0
+[2023-10-03 16:26:22.367] [pxr_streamer] [info] [26060|9332]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1f3f95cc2b0
+[2023-10-03 16:26:22.367] [pxr_streamer] [debug] [26060|26900]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1f3f95cc2b0
+[2023-10-03 16:26:22.367] [pxr_streamer] [debug] [26060|26900]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1f4f26e9b20
+[2023-10-03 16:26:22.367] [pxr_streamer] [info] [26060|26900]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1f4f26e9b20
+[2023-10-03 16:26:24.398] [pxr_streamer] [error] [26060|24304]transport_client_tcp2.cpp:145 HandleConnect: connected error= No connection could be made because the target machine actively refused it., this= 0x1f4f26e9b20
+[2023-10-03 16:26:24.398] [pxr_streamer] [info] [26060|24304]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 10061, this= 0x1f3f95cc2b0
+[2023-10-03 16:26:24.398] [pxr_streamer] [error] [26060|26900]streaming_driver_interface_impl.cpp:438 HandleTransportConnect: connect to service error= 10061, this= 0x1f3f95cc2b0
+[2023-10-03 16:27:14.436] [pxr_streamer] [info] [26060|9332]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1f4e5dc9cb0
+[2023-10-03 16:27:14.436] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1f4f2c71fd0, this= 0x1f3f95cbc70
+[2023-10-03 16:27:14.436] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x1f3f95cc2b0
+[2023-10-03 16:27:14.436] [pxr_streamer] [info] [26060|9332]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x1f4e5dc0940
+[2023-10-03 16:27:14.436] [pxr_streamer] [debug] [26060|9332]transport_client_tcp2.cpp:73 Stop: called, this= 0x1f4f26e9b20
+[2023-10-03 16:27:14.436] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1f3f95cbc70
+[2023-10-03 16:27:14.436] [pxr_streamer] [error] [26060|9332]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1f3f95cbc70
+[2023-10-03 16:27:14.436] [pxr_streamer] [info] [26060|9332]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1f3f95cbc70
+[2023-10-03 16:27:14.436] [pxr_streamer] [debug] [26060|27124]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1f3f95cbc70
+[2023-10-03 16:27:14.436] [pxr_streamer] [debug] [26060|27124]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1f3d6c6e250
+[2023-10-03 16:27:14.436] [pxr_streamer] [info] [26060|27124]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1f3d6c6e250
+[2023-10-03 16:27:16.458] [pxr_streamer] [error] [26060|12188]transport_client_tcp2.cpp:145 HandleConnect: connected error= No connection could be made because the target machine actively refused it., this= 0x1f3d6c6e250
+[2023-10-03 16:27:16.458] [pxr_streamer] [info] [26060|12188]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 10061, this= 0x1f3f95cbc70
+[2023-10-03 16:27:16.458] [pxr_streamer] [error] [26060|27124]streaming_driver_interface_impl.cpp:438 HandleTransportConnect: connect to service error= 10061, this= 0x1f3f95cbc70
+[2023-10-03 16:32:34.873] [pxr_streamer] [info] [26060|9332]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1f4846850c0
+[2023-10-03 16:32:34.873] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1f3d697faa0, this= 0x1f3f95cc2b0
+[2023-10-03 16:32:34.873] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x1f3f95cbc70
+[2023-10-03 16:32:34.873] [pxr_streamer] [info] [26060|9332]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x1f4e5dc9cb0
+[2023-10-03 16:32:34.873] [pxr_streamer] [debug] [26060|9332]transport_client_tcp2.cpp:73 Stop: called, this= 0x1f3d6c6e250
+[2023-10-03 16:32:34.873] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1f3f95cc2b0
+[2023-10-03 16:32:34.873] [pxr_streamer] [error] [26060|9332]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1f3f95cc2b0
+[2023-10-03 16:32:34.873] [pxr_streamer] [info] [26060|9332]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1f3f95cc2b0
+[2023-10-03 16:32:34.873] [pxr_streamer] [debug] [26060|25124]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1f3f95cc2b0
+[2023-10-03 16:32:34.873] [pxr_streamer] [debug] [26060|25124]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1f1ecc59f40
+[2023-10-03 16:32:34.873] [pxr_streamer] [info] [26060|25124]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1f1ecc59f40
+[2023-10-03 16:32:36.916] [pxr_streamer] [error] [26060|12908]transport_client_tcp2.cpp:145 HandleConnect: connected error= No connection could be made because the target machine actively refused it., this= 0x1f1ecc59f40
+[2023-10-03 16:32:36.916] [pxr_streamer] [info] [26060|12908]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 10061, this= 0x1f3f95cc2b0
+[2023-10-03 16:32:36.916] [pxr_streamer] [error] [26060|25124]streaming_driver_interface_impl.cpp:438 HandleTransportConnect: connect to service error= 10061, this= 0x1f3f95cc2b0
+[2023-10-03 16:34:07.010] [pxr_streamer] [info] [26060|9332]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1f4a74eddc0
+[2023-10-03 16:34:07.010] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1f4e58bfbb0, this= 0x1f3f95ce1f0
+[2023-10-03 16:34:07.010] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x1f3f95cc2b0
+[2023-10-03 16:34:07.010] [pxr_streamer] [info] [26060|9332]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x1f4846850c0
+[2023-10-03 16:34:07.010] [pxr_streamer] [debug] [26060|9332]transport_client_tcp2.cpp:73 Stop: called, this= 0x1f1ecc59f40
+[2023-10-03 16:34:07.011] [pxr_streamer] [debug] [26060|9332]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1f3f95ce1f0
+[2023-10-03 16:34:07.011] [pxr_streamer] [error] [26060|9332]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1f3f95ce1f0
+[2023-10-03 16:34:07.011] [pxr_streamer] [info] [26060|9332]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1f3f95ce1f0
+[2023-10-03 16:34:07.011] [pxr_streamer] [debug] [26060|20392]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1f3f95ce1f0
+[2023-10-03 16:34:07.011] [pxr_streamer] [debug] [26060|20392]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1f1e3b3eec0
+[2023-10-03 16:34:07.011] [pxr_streamer] [info] [26060|20392]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1f1e3b3eec0
+[2023-10-03 16:34:09.033] [pxr_streamer] [error] [26060|16836]transport_client_tcp2.cpp:145 HandleConnect: connected error= No connection could be made because the target machine actively refused it., this= 0x1f1e3b3eec0
+[2023-10-03 16:34:09.033] [pxr_streamer] [info] [26060|16836]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 10061, this= 0x1f3f95ce1f0
+[2023-10-03 16:34:09.033] [pxr_streamer] [error] [26060|20392]streaming_driver_interface_impl.cpp:438 HandleTransportConnect: connect to service error= 10061, this= 0x1f3f95ce1f0
+[2023-10-03 16:42:27.371] [pxr_streamer] [info] ***********  Log Begin **********
+[2023-10-03 16:42:27.371] [pxr_streamer] [info] process id= 23040
+[2023-10-03 16:42:27.371] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1ba03e769a0
+[2023-10-03 16:42:27.371] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1ba03dd34e0, this= 0x1b9a5a3d3c0
+[2023-10-03 16:42:27.371] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= Undefined, this= 0x1b9a5a3d3c0
+[2023-10-03 16:42:27.371] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1b9a5a3d3c0
+[2023-10-03 16:42:27.371] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1b9a5a3d3c0
+[2023-10-03 16:42:27.371] [pxr_streamer] [debug] [23040|25692]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1b9a5a3d3c0
+[2023-10-03 16:42:27.372] [pxr_streamer] [debug] [23040|25692]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1ba69b322f0
+[2023-10-03 16:42:27.372] [pxr_streamer] [info] [23040|25692]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1ba69b322f0
+[2023-10-03 16:42:29.387] [pxr_streamer] [error] [23040|12124]transport_client_tcp2.cpp:145 HandleConnect: connected error= No connection could be made because the target machine actively refused it., this= 0x1ba69b322f0
+[2023-10-03 16:42:29.387] [pxr_streamer] [info] [23040|12124]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 10061, this= 0x1b9a5a3d3c0
+[2023-10-03 16:42:29.387] [pxr_streamer] [error] [23040|25692]streaming_driver_interface_impl.cpp:438 HandleTransportConnect: connect to service error= 10061, this= 0x1b9a5a3d3c0
+[2023-10-03 17:16:31.387] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1ba433450e0
+[2023-10-03 17:16:31.387] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1b965b237d0, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.387] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x1b9a5a3d3c0
+[2023-10-03 17:16:31.387] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x1ba03e769a0
+[2023-10-03 17:16:31.387] [pxr_streamer] [debug] [23040|22128]transport_client_tcp2.cpp:73 Stop: called, this= 0x1ba69b322f0
+[2023-10-03 17:16:31.387] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.387] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.387] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.387] [pxr_streamer] [debug] [23040|9936]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.387] [pxr_streamer] [debug] [23040|9936]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1b9716b9000
+[2023-10-03 17:16:31.387] [pxr_streamer] [info] [23040|9936]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1b9716b9000
+[2023-10-03 17:16:31.388] [pxr_streamer] [info] [23040|17660]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 0, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.388] [pxr_streamer] [debug] [23040|9936]streaming_driver_interface_impl.cpp:444 HandleTransportConnect: connect success, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.388] [pxr_streamer] [debug] [23040|17660]transport_client_tcp2.cpp:161 HandleConnect: local= 127.0.0.1:62216, this= 0x1b9716b9000
+[2023-10-03 17:16:31.388] [pxr_streamer] [info] [23040|9936]driver_impl.cpp:59 Connect: send connect request : { id = slqkM6hG, timestamp = 258458050, from = Driver, to = SRS, connection info : {id: "NJoCxoUvNfFP5MYy\000" name: "Streaming Driver SDK\000" module_version: "1.1.1.1\000" protocol_version: "1.0.0.0\000"} }, this= 0x1ba433450e0
+[2023-10-03 17:16:31.388] [pxr_streamer] [info] [23040|9936]streaming_driver_interface_impl.cpp:332 StartRpcConnect: driver id= NJoCxoUvNfFP5MYy, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.389] [pxr_streamer] [info] [23040|9936]driver_impl.cpp:650 ProcessResponseMessage: received connect response : { id = jFgyMdd3, timestamp = 258458051, from = SRS, to = Driver, req_id = slqkM6hG, result_code = 1 }, this= 0x1ba433450e0
+[2023-10-03 17:16:31.389] [pxr_streamer] [debug] [23040|9936]streaming_driver_interface_impl.cpp:174 NotifyDriverConnectResult: result= 0, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.389] [pxr_streamer] [info] [23040|9936]driver_impl.cpp:447 ProcessNotifyMessage: received connect notify : { id = IyviKsuE, timestamp = 258458051, from = SRS, to = Driver, connection info: { id = PA81E0MGGB050901G, name = PICO 4, module_version = b5653, protocol_version = 1.1.0.0 } }, this= 0x1ba433450e0
+[2023-10-03 17:16:31.390] [pxr_streamer] [debug] [23040|9936]streaming_driver_interface_impl.cpp:216 NotifyDeviceConnected: device info= id= PA81E0MGGB050901G, name= PICO 4, module version= b5653, protocol version= 1.1.0.0, fov= 2,{0,0,0,0}, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.390] [pxr_streamer] [info] [23040|9936]streaming_driver_interface_impl.cpp:62 StartStreaming: (1920,1920), fps= 72, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.390] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:62 StartStreaming: (1920,1920), fps= 72, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.390] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:67 StartStreaming: "invalid streaming state", streaming_state_ != pxr_rpc::StreamingState::kStreamingFinished, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:31.390] [pxr_streamer] [info] [23040|9936]driver_impl.cpp:207 StartStreaming: send start streaming request : { id = Pd9YoA9S, timestamp = 258458052, from = Driver, to = SRS, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1ba433450e0
+[2023-10-03 17:16:31.390] [pxr_streamer] [info] [23040|9936]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = Go1155tD, timestamp = 258458052, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingLaunching}, media config : {}, this= 0x1ba433450e0
+[2023-10-03 17:16:31.390] [pxr_streamer] [debug] [23040|9936]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 1, config= (0,0), fps= 0, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:36.279] [pxr_streamer] [info] [23040|9936]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = hVKkyCh7, timestamp = 258462941, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingReady}, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1ba433450e0
+[2023-10-03 17:16:36.279] [pxr_streamer] [debug] [23040|9936]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 2, config= (1920,1920), fps= 72, this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:36.280] [pxr_streamer] [warning] [23040|17660]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b9716b91a0
+[2023-10-03 17:16:36.280] [pxr_streamer] [warning] [23040|17660]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b9716b91a0
+[2023-10-03 17:16:36.280] [pxr_streamer] [warning] [23040|17660]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b9716b91a0
+[2023-10-03 17:16:36.321] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:36.322] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:36.322] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:36.797] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:36.811] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:36.811] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:37.635] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:37.635] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:37.663] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:37.718] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:37.801] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:37.816] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:38.148] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:38.247] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:38.343] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:38.400] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:38.636] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:38.636] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:38.636] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:38.775] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:38.789] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:38.940] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:39.580] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:41.475] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:41.477] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:41.762] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:41.762] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:41.762] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:41.763] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:41.765] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:43.164] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:43.164] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:43.276] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:43.387] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:43.387] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:43.666] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:43.666] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:43.666] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:43.666] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:43.667] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:43.667] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:43.972] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:47.457] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:47.555] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:47.555] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:47.651] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:47.680] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:47.749] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:47.749] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:47.761] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:48.221] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:49.318] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:51.957] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:51.972] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:52.609] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:52.609] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:52.873] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:52.873] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:54.389] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:54.418] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:54.446] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:57.306] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:57.306] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:58.945] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:58.959] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:59.222] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:59.292] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:59.417] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:16:59.695] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:01.111] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:01.223] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:01.932] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:02.235] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:02.569] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:02.918] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:02.918] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:03.029] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:03.029] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:03.125] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:04.086] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:04.768] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:04.878] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:05.045] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:05.045] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:07.031] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:07.462] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.6,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:08.603] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:08.825] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:08.868] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:09.172] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:09.394] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:09.518] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:10.173] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:10.379] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:10.395] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:27.665] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:27.665] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:28.358] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:28.358] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:32.609] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:33.014] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:34.068] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:34.651] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:34.763] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:35.249] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:36.609] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:37.125] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:38.488] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:38.488] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:39.750] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:39.750] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:40.890] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:42.292] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:42.695] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:43.972] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:44.501] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:44.695] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:44.863] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:44.863] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:46.807] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:46.807] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:47.583] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:47.793] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.6,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:48.809] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:49.447] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:50.018] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:50.018] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:51.905] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:51.933] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:51.947] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:51.974] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:51.989] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:52.018] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:52.032] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:52.073] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:52.087] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:52.115] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:52.129] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:52.295] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:52.781] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:54.087] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:54.087] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:54.573] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:54.851] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:55.530] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:55.711] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:56.088] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:56.419] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:59.660] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:59.840] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:59.895] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:17:59.924] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:01.812] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:01.812] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:02.215] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:02.367] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:02.367] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:03.089] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:03.089] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:05.008] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:05.063] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:05.146] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:05.146] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:05.327] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:05.480] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:05.493] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:05.619] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:05.619] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:06.729] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:07.090] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:07.256] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:08.089] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:08.103] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:08.201] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:08.201] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:08.520] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:08.520] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:17.705] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:17.886] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:18.373] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:18.386] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:18.552] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:18.567] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:18.734] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:18.901] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:19.135] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:20.150] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:20.845] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:22.056] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:28.515] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:29.292] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:34.768] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:34.768] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:34.782] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:34.782] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:34.782] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:34.782] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:34.782] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:34.782] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:34.782] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:34.782] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:35.683] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:35.683] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:35.683] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:35.683] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:35.696] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:35.696] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:35.795] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:35.795] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:35.795] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:35.795] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:35.795] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:35.795] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:36.713] [pxr_streamer] [info] [23040|9936]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = 522jUnGE, timestamp = 258583375, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingFinished}, media config : {}, this= 0x1ba433450e0
+[2023-10-03 17:18:36.713] [pxr_streamer] [debug] [23040|9936]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 3, config= (0,0), fps= 0, this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:49.156] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:53 DisconnectFromService: disconnect from service, this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:49.156] [pxr_streamer] [debug] [23040|9936]streaming_driver_interface_impl.cpp:374 InvokeDisconnectFromService: disconnect from service, this= 0x1b9a5a3d6e0
+[2023-10-03 17:18:49.156] [pxr_streamer] [info] [23040|9936]driver_impl.cpp:81 Disconnect: send disconnect request : { id = sijVFfSx, timestamp = 258595818, from = Driver, to = SRS }, this= 0x1ba433450e0
+[2023-10-03 17:18:49.156] [pxr_streamer] [debug] [23040|9936]transport_client_tcp2.cpp:73 Stop: called, this= 0x1b9716b9000
+[2023-10-03 17:18:49.156] [pxr_streamer] [error] [23040|17660]transport_client_tcp2.cpp:116 operator (): recv error= 1236, msg= The network connection was aborted by the local system., this= 0x1b9716b9000
+[2023-10-03 17:18:49.156] [pxr_streamer] [error] [23040|17660]transport_client_tcp2.cpp:129 HandleReceiveData: has been disconnected, this= 0x1b9716b9000
+[2023-10-03 17:18:49.156] [pxr_streamer] [error] [23040|17660]transport_client_tcp2.cpp:105 StartAyncRecv: has been disconnected, this= 0x1b9716b9000
+[2023-10-03 17:20:32.847] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1b972ba89b0
+[2023-10-03 17:20:32.847] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1b972c015c0, this= 0x1b9a5a3e040
+[2023-10-03 17:20:32.847] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x1b9a5a3d6e0
+[2023-10-03 17:20:32.847] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x1ba433450e0
+[2023-10-03 17:20:32.847] [pxr_streamer] [debug] [23040|22128]transport_client_tcp2.cpp:73 Stop: called, this= 0x1b9716b9000
+[2023-10-03 17:20:32.848] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1b9a5a3e040
+[2023-10-03 17:20:32.848] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1b9a5a3e040
+[2023-10-03 17:20:32.848] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1b9a5a3e040
+[2023-10-03 17:20:32.848] [pxr_streamer] [debug] [23040|24408]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1b9a5a3e040
+[2023-10-03 17:20:32.848] [pxr_streamer] [debug] [23040|24408]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1b9662759b0
+[2023-10-03 17:20:32.848] [pxr_streamer] [info] [23040|24408]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1b9662759b0
+[2023-10-03 17:20:32.848] [pxr_streamer] [info] [23040|16932]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 0, this= 0x1b9a5a3e040
+[2023-10-03 17:20:32.848] [pxr_streamer] [debug] [23040|24408]streaming_driver_interface_impl.cpp:444 HandleTransportConnect: connect success, this= 0x1b9a5a3e040
+[2023-10-03 17:20:32.848] [pxr_streamer] [debug] [23040|16932]transport_client_tcp2.cpp:161 HandleConnect: local= 127.0.0.1:49540, this= 0x1b9662759b0
+[2023-10-03 17:20:32.848] [pxr_streamer] [info] [23040|24408]driver_impl.cpp:59 Connect: send connect request : { id = eesopqAO, timestamp = 258699510, from = Driver, to = SRS, connection info : {id: "LiXeOTtraH8l5arx\000" name: "Streaming Driver SDK\000" module_version: "1.1.1.1\000" protocol_version: "1.0.0.0\000"} }, this= 0x1b972ba89b0
+[2023-10-03 17:20:32.848] [pxr_streamer] [info] [23040|24408]streaming_driver_interface_impl.cpp:332 StartRpcConnect: driver id= LiXeOTtraH8l5arx, this= 0x1b9a5a3e040
+[2023-10-03 17:20:32.849] [pxr_streamer] [info] [23040|24408]driver_impl.cpp:650 ProcessResponseMessage: received connect response : { id = lprDf7iT, timestamp = 258699511, from = SRS, to = Driver, req_id = eesopqAO, result_code = 1 }, this= 0x1b972ba89b0
+[2023-10-03 17:20:32.849] [pxr_streamer] [debug] [23040|24408]streaming_driver_interface_impl.cpp:174 NotifyDriverConnectResult: result= 0, this= 0x1b9a5a3e040
+[2023-10-03 17:20:32.849] [pxr_streamer] [info] [23040|24408]driver_impl.cpp:447 ProcessNotifyMessage: received connect notify : { id = pvBuAoor, timestamp = 258699511, from = SRS, to = Driver, connection info: { id = PA81E0MGGB050901G, name = PICO 4, module_version = b5653, protocol_version = 1.1.0.0 } }, this= 0x1b972ba89b0
+[2023-10-03 17:20:32.849] [pxr_streamer] [debug] [23040|24408]streaming_driver_interface_impl.cpp:216 NotifyDeviceConnected: device info= id= PA81E0MGGB050901G, name= PICO 4, module version= b5653, protocol version= 1.1.0.0, fov= 2,{0,0,0,0}, this= 0x1b9a5a3e040
+[2023-10-03 17:20:32.849] [pxr_streamer] [info] [23040|24408]streaming_driver_interface_impl.cpp:62 StartStreaming: (1920,1920), fps= 72, this= 0x1b9a5a3e040
+[2023-10-03 17:20:32.849] [pxr_streamer] [info] [23040|24408]driver_impl.cpp:207 StartStreaming: send start streaming request : { id = qd5yzxYV, timestamp = 258699511, from = Driver, to = SRS, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1b972ba89b0
+[2023-10-03 17:20:32.849] [pxr_streamer] [info] [23040|24408]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = mrHLuEim, timestamp = 258699511, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingLaunching}, media config : {}, this= 0x1b972ba89b0
+[2023-10-03 17:20:32.849] [pxr_streamer] [debug] [23040|24408]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 1, config= (0,0), fps= 0, this= 0x1b9a5a3e040
+[2023-10-03 17:20:39.282] [pxr_streamer] [info] [23040|24408]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = xUWnRHHF, timestamp = 258705944, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingReady}, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1b972ba89b0
+[2023-10-03 17:20:39.282] [pxr_streamer] [debug] [23040|24408]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 2, config= (1920,1920), fps= 72, this= 0x1b9a5a3e040
+[2023-10-03 17:20:39.282] [pxr_streamer] [warning] [23040|16932]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b966275b50
+[2023-10-03 17:20:39.282] [pxr_streamer] [warning] [23040|16932]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 3, this= 0x1b966275b50
+[2023-10-03 17:20:39.282] [pxr_streamer] [warning] [23040|16932]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b966275b50
+[2023-10-03 17:20:39.282] [pxr_streamer] [warning] [23040|16932]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b966275b50
+[2023-10-03 17:20:39.282] [pxr_streamer] [warning] [23040|16932]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b966275b50
+[2023-10-03 17:20:39.282] [pxr_streamer] [warning] [23040|16932]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 3, this= 0x1b966275b50
+[2023-10-03 17:20:39.954] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:39.955] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:40.049] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:40.063] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:40.063] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:40.708] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:40.710] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:40.870] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:40.870] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:40.870] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:40.871] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:40.873] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:41.396] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:41.577] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:41.577] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:41.868] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:41.868] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:41.868] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:41.868] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:41.869] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:41.869] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:42.702] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:43.605] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.6,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:44.815] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:45.469] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:47.830] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:48.150] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:48.690] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:49.010] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:49.134] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:49.302] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:50.287] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:50.287] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:50.523] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:50.566] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:50.593] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:50.606] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:50.691] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:52.357] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:52.995] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:53.523] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:53.802] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:20:53.802] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:00.718] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:00.718] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:00.856] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:00.856] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:00.870] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:01.106] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:01.106] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:01.136] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:01.427] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:01.427] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:01.690] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:01.704] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:01.969] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:02.413] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:03.232] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:05.425] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:06.553] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:07.374] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:07.554] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:07.623] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:08.068] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:08.068] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:08.263] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:08.263] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:08.443] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:08.443] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:08.457] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:08.680] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:13.082] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:15.595] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:15.610] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:15.623] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:15.623] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:15.707] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:21.806] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:21.806] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:21.821] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:21.821] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:21.821] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:21.822] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:21.822] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:21.822] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:22.653] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:22.653] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:22.653] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:22.653] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:22.750] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:22.750] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:22.750] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:22.750] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e040
+[2023-10-03 17:21:23.659] [pxr_streamer] [info] [23040|24408]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = x9B5DieO, timestamp = 258750321, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingFinished}, media config : {}, this= 0x1b972ba89b0
+[2023-10-03 17:21:23.659] [pxr_streamer] [debug] [23040|24408]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 3, config= (0,0), fps= 0, this= 0x1b9a5a3e040
+[2023-10-03 17:21:38.042] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:53 DisconnectFromService: disconnect from service, this= 0x1b9a5a3e040
+[2023-10-03 17:21:38.042] [pxr_streamer] [debug] [23040|24408]streaming_driver_interface_impl.cpp:374 InvokeDisconnectFromService: disconnect from service, this= 0x1b9a5a3e040
+[2023-10-03 17:21:38.042] [pxr_streamer] [info] [23040|24408]driver_impl.cpp:81 Disconnect: send disconnect request : { id = SQXIkAra, timestamp = 258764704, from = Driver, to = SRS }, this= 0x1b972ba89b0
+[2023-10-03 17:21:38.042] [pxr_streamer] [debug] [23040|24408]transport_client_tcp2.cpp:73 Stop: called, this= 0x1b9662759b0
+[2023-10-03 17:21:38.042] [pxr_streamer] [error] [23040|16932]transport_client_tcp2.cpp:116 operator (): recv error= 1236, msg= The network connection was aborted by the local system., this= 0x1b9662759b0
+[2023-10-03 17:21:38.042] [pxr_streamer] [error] [23040|16932]transport_client_tcp2.cpp:129 HandleReceiveData: has been disconnected, this= 0x1b9662759b0
+[2023-10-03 17:21:38.042] [pxr_streamer] [error] [23040|16932]transport_client_tcp2.cpp:105 StartAyncRecv: has been disconnected, this= 0x1b9662759b0
+[2023-10-03 17:22:18.200] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1ba037258a0
+[2023-10-03 17:22:18.200] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1b96684be20, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:18.200] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x1b9a5a3e040
+[2023-10-03 17:22:18.200] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x1b972ba89b0
+[2023-10-03 17:22:18.200] [pxr_streamer] [debug] [23040|22128]transport_client_tcp2.cpp:73 Stop: called, this= 0x1b9662759b0
+[2023-10-03 17:22:18.200] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:18.200] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:18.200] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:18.200] [pxr_streamer] [debug] [23040|6568]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:18.200] [pxr_streamer] [debug] [23040|6568]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1b9acf355e0
+[2023-10-03 17:22:18.200] [pxr_streamer] [info] [23040|6568]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1b9acf355e0
+[2023-10-03 17:22:18.201] [pxr_streamer] [info] [23040|6036]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 0, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:18.201] [pxr_streamer] [debug] [23040|6036]transport_client_tcp2.cpp:161 HandleConnect: local= 127.0.0.1:49540, this= 0x1b9acf355e0
+[2023-10-03 17:22:18.201] [pxr_streamer] [debug] [23040|6568]streaming_driver_interface_impl.cpp:444 HandleTransportConnect: connect success, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:18.201] [pxr_streamer] [info] [23040|6568]driver_impl.cpp:59 Connect: send connect request : { id = s5hlBLtS, timestamp = 258804863, from = Driver, to = SRS, connection info : {id: "FkCMQbS5VyhNRWqX\000" name: "Streaming Driver SDK\000" module_version: "1.1.1.1\000" protocol_version: "1.0.0.0\000"} }, this= 0x1ba037258a0
+[2023-10-03 17:22:18.201] [pxr_streamer] [info] [23040|6568]streaming_driver_interface_impl.cpp:332 StartRpcConnect: driver id= FkCMQbS5VyhNRWqX, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:18.201] [pxr_streamer] [info] [23040|6568]driver_impl.cpp:650 ProcessResponseMessage: received connect response : { id = TWFQTGEq, timestamp = 258804863, from = SRS, to = Driver, req_id = s5hlBLtS, result_code = 1 }, this= 0x1ba037258a0
+[2023-10-03 17:22:18.201] [pxr_streamer] [debug] [23040|6568]streaming_driver_interface_impl.cpp:174 NotifyDriverConnectResult: result= 0, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:18.201] [pxr_streamer] [info] [23040|6568]driver_impl.cpp:447 ProcessNotifyMessage: received connect notify : { id = 9iFAOmy1, timestamp = 258804863, from = SRS, to = Driver, connection info: { id = PA81E0MGGB050901G, name = PICO 4, module_version = b5653, protocol_version = 1.1.0.0 } }, this= 0x1ba037258a0
+[2023-10-03 17:22:18.201] [pxr_streamer] [debug] [23040|6568]streaming_driver_interface_impl.cpp:216 NotifyDeviceConnected: device info= id= PA81E0MGGB050901G, name= PICO 4, module version= b5653, protocol version= 1.1.0.0, fov= 2,{0,0,0,0}, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:18.201] [pxr_streamer] [info] [23040|6568]streaming_driver_interface_impl.cpp:62 StartStreaming: (1920,1920), fps= 72, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:18.201] [pxr_streamer] [info] [23040|6568]driver_impl.cpp:207 StartStreaming: send start streaming request : { id = vKphe6tO, timestamp = 258804863, from = Driver, to = SRS, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1ba037258a0
+[2023-10-03 17:22:18.201] [pxr_streamer] [info] [23040|6568]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = uHMlIdrD, timestamp = 258804863, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingLaunching}, media config : {}, this= 0x1ba037258a0
+[2023-10-03 17:22:18.201] [pxr_streamer] [debug] [23040|6568]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 1, config= (0,0), fps= 0, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:23.294] [pxr_streamer] [info] [23040|6568]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = WdbkcFvn, timestamp = 258809957, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingReady}, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1ba037258a0
+[2023-10-03 17:22:23.294] [pxr_streamer] [debug] [23040|6568]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 2, config= (1920,1920), fps= 72, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:23.295] [pxr_streamer] [warning] [23040|6036]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b9acf35780
+[2023-10-03 17:22:23.295] [pxr_streamer] [warning] [23040|6036]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 5, this= 0x1b9acf35780
+[2023-10-03 17:22:23.295] [pxr_streamer] [warning] [23040|6036]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 3, this= 0x1b9acf35780
+[2023-10-03 17:22:23.325] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:23.326] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:23.326] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:23.938] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:23.938] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:24.126] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:24.127] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:24.357] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:24.357] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:24.357] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:24.358] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:24.360] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:24.899] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:24.899] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:24.982] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:24.982] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:25.065] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:25.065] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:25.065] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:25.065] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:25.300] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:25.300] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:25.300] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:25.300] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:25.300] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:25.300] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:25.704] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:26.730] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.6,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:27.593] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:28.997] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.013] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.030] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.030] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.030] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.030] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.030] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.030] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.030] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.846] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.846] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.846] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.846] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.861] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.861] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.944] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.944] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.944] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.944] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.944] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:33.944] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:34.877] [pxr_streamer] [info] [23040|6568]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = brFdVTHG, timestamp = 258821539, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingFinished}, media config : {}, this= 0x1ba037258a0
+[2023-10-03 17:22:34.877] [pxr_streamer] [debug] [23040|6568]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 3, config= (0,0), fps= 0, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:34.972] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:34.972] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:107 VibrateController: "invalid streaming state", streaming_state_ != pxr_rpc::StreamingState::kStreamingReady, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:34.972] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:34.972] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:107 VibrateController: "invalid streaming state", streaming_state_ != pxr_rpc::StreamingState::kStreamingReady, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:41.952] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:53 DisconnectFromService: disconnect from service, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:41.952] [pxr_streamer] [debug] [23040|6568]streaming_driver_interface_impl.cpp:374 InvokeDisconnectFromService: disconnect from service, this= 0x1b9a5a3e9a0
+[2023-10-03 17:22:41.952] [pxr_streamer] [info] [23040|6568]driver_impl.cpp:81 Disconnect: send disconnect request : { id = RaEreQov, timestamp = 258828614, from = Driver, to = SRS }, this= 0x1ba037258a0
+[2023-10-03 17:22:41.952] [pxr_streamer] [debug] [23040|6568]transport_client_tcp2.cpp:73 Stop: called, this= 0x1b9acf355e0
+[2023-10-03 17:22:41.952] [pxr_streamer] [error] [23040|6036]transport_client_tcp2.cpp:116 operator (): recv error= 1236, msg= The network connection was aborted by the local system., this= 0x1b9acf355e0
+[2023-10-03 17:22:41.952] [pxr_streamer] [error] [23040|6036]transport_client_tcp2.cpp:129 HandleReceiveData: has been disconnected, this= 0x1b9acf355e0
+[2023-10-03 17:22:41.952] [pxr_streamer] [error] [23040|6036]transport_client_tcp2.cpp:105 StartAyncRecv: has been disconnected, this= 0x1b9acf355e0
+[2023-10-03 17:25:03.891] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1b97001c2f0
+[2023-10-03 17:25:03.891] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1b96684dae0, this= 0x1b9a5a3f620
+[2023-10-03 17:25:03.891] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x1b9a5a3e9a0
+[2023-10-03 17:25:03.891] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x1ba037258a0
+[2023-10-03 17:25:03.891] [pxr_streamer] [debug] [23040|22128]transport_client_tcp2.cpp:73 Stop: called, this= 0x1b9acf355e0
+[2023-10-03 17:25:03.892] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1b9a5a3f620
+[2023-10-03 17:25:03.892] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1b9a5a3f620
+[2023-10-03 17:25:03.892] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1b9a5a3f620
+[2023-10-03 17:25:03.892] [pxr_streamer] [debug] [23040|24792]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1b9a5a3f620
+[2023-10-03 17:25:03.892] [pxr_streamer] [debug] [23040|24792]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1b9acaf2eb0
+[2023-10-03 17:25:03.892] [pxr_streamer] [info] [23040|24792]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1b9acaf2eb0
+[2023-10-03 17:25:03.892] [pxr_streamer] [info] [23040|18604]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 0, this= 0x1b9a5a3f620
+[2023-10-03 17:25:03.892] [pxr_streamer] [debug] [23040|24792]streaming_driver_interface_impl.cpp:444 HandleTransportConnect: connect success, this= 0x1b9a5a3f620
+[2023-10-03 17:25:03.892] [pxr_streamer] [debug] [23040|18604]transport_client_tcp2.cpp:161 HandleConnect: local= 127.0.0.1:59049, this= 0x1b9acaf2eb0
+[2023-10-03 17:25:03.892] [pxr_streamer] [info] [23040|24792]driver_impl.cpp:59 Connect: send connect request : { id = 9qrn7ZlH, timestamp = 258970554, from = Driver, to = SRS, connection info : {id: "C97WTvOXonu8Q61Z\000" name: "Streaming Driver SDK\000" module_version: "1.1.1.1\000" protocol_version: "1.0.0.0\000"} }, this= 0x1b97001c2f0
+[2023-10-03 17:25:03.892] [pxr_streamer] [info] [23040|24792]streaming_driver_interface_impl.cpp:332 StartRpcConnect: driver id= C97WTvOXonu8Q61Z, this= 0x1b9a5a3f620
+[2023-10-03 17:25:03.892] [pxr_streamer] [info] [23040|24792]driver_impl.cpp:650 ProcessResponseMessage: received connect response : { id = b14dBLo3, timestamp = 258970554, from = SRS, to = Driver, req_id = 9qrn7ZlH, result_code = 1 }, this= 0x1b97001c2f0
+[2023-10-03 17:25:03.892] [pxr_streamer] [debug] [23040|24792]streaming_driver_interface_impl.cpp:174 NotifyDriverConnectResult: result= 0, this= 0x1b9a5a3f620
+[2023-10-03 17:25:03.892] [pxr_streamer] [info] [23040|24792]driver_impl.cpp:447 ProcessNotifyMessage: received connect notify : { id = MJlAfLyr, timestamp = 258970554, from = SRS, to = Driver, connection info: { id = PA81E0MGGB050901G, name = PICO 4, module_version = b5653, protocol_version = 1.1.0.0 } }, this= 0x1b97001c2f0
+[2023-10-03 17:25:03.892] [pxr_streamer] [debug] [23040|24792]streaming_driver_interface_impl.cpp:216 NotifyDeviceConnected: device info= id= PA81E0MGGB050901G, name= PICO 4, module version= b5653, protocol version= 1.1.0.0, fov= 2,{0,0,0,0}, this= 0x1b9a5a3f620
+[2023-10-03 17:25:03.892] [pxr_streamer] [info] [23040|24792]streaming_driver_interface_impl.cpp:62 StartStreaming: (1920,1920), fps= 72, this= 0x1b9a5a3f620
+[2023-10-03 17:25:03.892] [pxr_streamer] [info] [23040|24792]driver_impl.cpp:207 StartStreaming: send start streaming request : { id = RmoLVnyP, timestamp = 258970555, from = Driver, to = SRS, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1b97001c2f0
+[2023-10-03 17:25:03.893] [pxr_streamer] [info] [23040|24792]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = JrWKAhpd, timestamp = 258970555, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingLaunching}, media config : {}, this= 0x1b97001c2f0
+[2023-10-03 17:25:03.893] [pxr_streamer] [debug] [23040|24792]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 1, config= (0,0), fps= 0, this= 0x1b9a5a3f620
+[2023-10-03 17:25:10.783] [pxr_streamer] [info] [23040|24792]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = VD9rAnuA, timestamp = 258977445, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingReady}, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1b97001c2f0
+[2023-10-03 17:25:10.783] [pxr_streamer] [debug] [23040|24792]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 2, config= (1920,1920), fps= 72, this= 0x1b9a5a3f620
+[2023-10-03 17:25:10.784] [pxr_streamer] [warning] [23040|18604]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b9acaf3050
+[2023-10-03 17:25:10.784] [pxr_streamer] [warning] [23040|18604]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 4, this= 0x1b9acaf3050
+[2023-10-03 17:25:10.784] [pxr_streamer] [warning] [23040|18604]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b9acaf3050
+[2023-10-03 17:25:10.784] [pxr_streamer] [warning] [23040|18604]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b9acaf3050
+[2023-10-03 17:25:10.784] [pxr_streamer] [warning] [23040|18604]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b9acaf3050
+[2023-10-03 17:25:10.820] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:11.607] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:11.607] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:11.607] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:11.765] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:11.766] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.009] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.010] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.011] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.012] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.024] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.551] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.551] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.828] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.828] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.828] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.828] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.828] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.828] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:12.844] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:13.521] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:14.370] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.6,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:15.442] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:16.178] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:16.957] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:16.997] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:18.386] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:18.678] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:18.678] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:19.705] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:19.761] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:20.415] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:20.415] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:20.430] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:20.430] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:20.430] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:20.430] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:20.430] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:20.430] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:20.430] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:20.430] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:21.344] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:21.344] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:21.344] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:21.344] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:21.358] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:21.358] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:21.427] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:21.427] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:21.427] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:21.427] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:21.427] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:21.427] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f620
+[2023-10-03 17:25:22.400] [pxr_streamer] [info] [23040|24792]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = ypTxqUKd, timestamp = 258989063, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingFinished}, media config : {}, this= 0x1b97001c2f0
+[2023-10-03 17:25:22.400] [pxr_streamer] [debug] [23040|24792]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 3, config= (0,0), fps= 0, this= 0x1b9a5a3f620
+[2023-10-03 17:25:29.896] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:53 DisconnectFromService: disconnect from service, this= 0x1b9a5a3f620
+[2023-10-03 17:25:29.896] [pxr_streamer] [debug] [23040|24792]streaming_driver_interface_impl.cpp:374 InvokeDisconnectFromService: disconnect from service, this= 0x1b9a5a3f620
+[2023-10-03 17:25:29.896] [pxr_streamer] [info] [23040|24792]driver_impl.cpp:81 Disconnect: send disconnect request : { id = KxZnPub8, timestamp = 258996558, from = Driver, to = SRS }, this= 0x1b97001c2f0
+[2023-10-03 17:25:29.896] [pxr_streamer] [debug] [23040|24792]transport_client_tcp2.cpp:73 Stop: called, this= 0x1b9acaf2eb0
+[2023-10-03 17:25:29.896] [pxr_streamer] [error] [23040|18604]transport_client_tcp2.cpp:116 operator (): recv error= 1236, msg= The network connection was aborted by the local system., this= 0x1b9acaf2eb0
+[2023-10-03 17:25:29.896] [pxr_streamer] [error] [23040|18604]transport_client_tcp2.cpp:129 HandleReceiveData: has been disconnected, this= 0x1b9acaf2eb0
+[2023-10-03 17:25:29.896] [pxr_streamer] [error] [23040|18604]transport_client_tcp2.cpp:105 StartAyncRecv: has been disconnected, this= 0x1b9acaf2eb0
+[2023-10-03 17:26:09.830] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1ba69123370
+[2023-10-03 17:26:09.830] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1b965b21cf0, this= 0x1b9a5a3f940
+[2023-10-03 17:26:09.830] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x1b9a5a3f620
+[2023-10-03 17:26:09.830] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x1b97001c2f0
+[2023-10-03 17:26:09.830] [pxr_streamer] [debug] [23040|22128]transport_client_tcp2.cpp:73 Stop: called, this= 0x1b9acaf2eb0
+[2023-10-03 17:26:09.831] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1b9a5a3f940
+[2023-10-03 17:26:09.831] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1b9a5a3f940
+[2023-10-03 17:26:09.831] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1b9a5a3f940
+[2023-10-03 17:26:09.831] [pxr_streamer] [debug] [23040|20456]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1b9a5a3f940
+[2023-10-03 17:26:09.831] [pxr_streamer] [debug] [23040|20456]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1b9716b6140
+[2023-10-03 17:26:09.831] [pxr_streamer] [info] [23040|20456]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1b9716b6140
+[2023-10-03 17:26:09.831] [pxr_streamer] [info] [23040|5992]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 0, this= 0x1b9a5a3f940
+[2023-10-03 17:26:09.831] [pxr_streamer] [debug] [23040|20456]streaming_driver_interface_impl.cpp:444 HandleTransportConnect: connect success, this= 0x1b9a5a3f940
+[2023-10-03 17:26:09.831] [pxr_streamer] [debug] [23040|5992]transport_client_tcp2.cpp:161 HandleConnect: local= 127.0.0.1:59735, this= 0x1b9716b6140
+[2023-10-03 17:26:09.831] [pxr_streamer] [info] [23040|20456]driver_impl.cpp:59 Connect: send connect request : { id = RbQFpqdu, timestamp = 259036493, from = Driver, to = SRS, connection info : {id: "RC43V9PApklwkTbn\000" name: "Streaming Driver SDK\000" module_version: "1.1.1.1\000" protocol_version: "1.0.0.0\000"} }, this= 0x1ba69123370
+[2023-10-03 17:26:09.831] [pxr_streamer] [info] [23040|20456]streaming_driver_interface_impl.cpp:332 StartRpcConnect: driver id= RC43V9PApklwkTbn, this= 0x1b9a5a3f940
+[2023-10-03 17:26:09.831] [pxr_streamer] [info] [23040|20456]driver_impl.cpp:650 ProcessResponseMessage: received connect response : { id = Gu4POMQh, timestamp = 259036493, from = SRS, to = Driver, req_id = RbQFpqdu, result_code = 1 }, this= 0x1ba69123370
+[2023-10-03 17:26:09.831] [pxr_streamer] [debug] [23040|20456]streaming_driver_interface_impl.cpp:174 NotifyDriverConnectResult: result= 0, this= 0x1b9a5a3f940
+[2023-10-03 17:26:09.831] [pxr_streamer] [info] [23040|20456]driver_impl.cpp:447 ProcessNotifyMessage: received connect notify : { id = SjXRxmb5, timestamp = 259036493, from = SRS, to = Driver, connection info: { id = PA81E0MGGB050901G, name = PICO 4, module_version = b5653, protocol_version = 1.1.0.0 } }, this= 0x1ba69123370
+[2023-10-03 17:26:09.831] [pxr_streamer] [debug] [23040|20456]streaming_driver_interface_impl.cpp:216 NotifyDeviceConnected: device info= id= PA81E0MGGB050901G, name= PICO 4, module version= b5653, protocol version= 1.1.0.0, fov= 2,{0,0,0,0}, this= 0x1b9a5a3f940
+[2023-10-03 17:26:09.831] [pxr_streamer] [info] [23040|20456]streaming_driver_interface_impl.cpp:62 StartStreaming: (1920,1920), fps= 72, this= 0x1b9a5a3f940
+[2023-10-03 17:26:09.831] [pxr_streamer] [info] [23040|20456]driver_impl.cpp:207 StartStreaming: send start streaming request : { id = 2NaYQzFl, timestamp = 259036494, from = Driver, to = SRS, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1ba69123370
+[2023-10-03 17:26:09.832] [pxr_streamer] [info] [23040|20456]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = n6ysvGq4, timestamp = 259036494, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingLaunching}, media config : {}, this= 0x1ba69123370
+[2023-10-03 17:26:09.832] [pxr_streamer] [debug] [23040|20456]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 1, config= (0,0), fps= 0, this= 0x1b9a5a3f940
+[2023-10-03 17:26:14.201] [pxr_streamer] [info] [23040|20456]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = 2Hst42UW, timestamp = 259040863, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingReady}, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1ba69123370
+[2023-10-03 17:26:14.201] [pxr_streamer] [debug] [23040|20456]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 2, config= (1920,1920), fps= 72, this= 0x1b9a5a3f940
+[2023-10-03 17:26:14.202] [pxr_streamer] [warning] [23040|5992]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b9716b62e0
+[2023-10-03 17:26:14.202] [pxr_streamer] [warning] [23040|5992]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 5, this= 0x1b9716b62e0
+[2023-10-03 17:26:14.202] [pxr_streamer] [warning] [23040|5992]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 4, this= 0x1b9716b62e0
+[2023-10-03 17:26:14.202] [pxr_streamer] [warning] [23040|5992]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b9716b62e0
+[2023-10-03 17:26:14.202] [pxr_streamer] [warning] [23040|5992]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b9716b62e0
+[2023-10-03 17:26:14.875] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:14.878] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.122] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.122] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.122] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.123] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.125] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.137] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.649] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.663] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.748] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.748] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.901] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.901] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.901] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.901] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.983] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.983] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.983] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.983] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:15.983] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:16.357] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:17.219] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.6,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:18.013] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:18.831] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:20.275] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:20.290] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:20.290] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:20.290] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:20.290] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:20.290] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:20.290] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:20.290] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:21.108] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:21.108] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:21.108] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:21.108] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:21.136] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:21.136] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:21.166] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:21.166] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:21.167] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:21.167] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:21.167] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:21.167] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:22.129] [pxr_streamer] [info] [23040|20456]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = sCr918rE, timestamp = 259048791, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingFinished}, media config : {}, this= 0x1ba69123370
+[2023-10-03 17:26:22.129] [pxr_streamer] [debug] [23040|20456]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 3, config= (0,0), fps= 0, this= 0x1b9a5a3f940
+[2023-10-03 17:26:22.238] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:22.238] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:107 VibrateController: "invalid streaming state", streaming_state_ != pxr_rpc::StreamingState::kStreamingReady, this= 0x1b9a5a3f940
+[2023-10-03 17:26:22.238] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3f940
+[2023-10-03 17:26:22.238] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:107 VibrateController: "invalid streaming state", streaming_state_ != pxr_rpc::StreamingState::kStreamingReady, this= 0x1b9a5a3f940
+[2023-10-03 17:26:25.662] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:53 DisconnectFromService: disconnect from service, this= 0x1b9a5a3f940
+[2023-10-03 17:26:25.662] [pxr_streamer] [debug] [23040|20456]streaming_driver_interface_impl.cpp:374 InvokeDisconnectFromService: disconnect from service, this= 0x1b9a5a3f940
+[2023-10-03 17:26:25.662] [pxr_streamer] [info] [23040|20456]driver_impl.cpp:81 Disconnect: send disconnect request : { id = TFYzr3Lx, timestamp = 259052324, from = Driver, to = SRS }, this= 0x1ba69123370
+[2023-10-03 17:26:25.662] [pxr_streamer] [debug] [23040|20456]transport_client_tcp2.cpp:73 Stop: called, this= 0x1b9716b6140
+[2023-10-03 17:26:25.662] [pxr_streamer] [error] [23040|5992]transport_client_tcp2.cpp:116 operator (): recv error= 1236, msg= The network connection was aborted by the local system., this= 0x1b9716b6140
+[2023-10-03 17:26:25.662] [pxr_streamer] [error] [23040|5992]transport_client_tcp2.cpp:129 HandleReceiveData: has been disconnected, this= 0x1b9716b6140
+[2023-10-03 17:26:25.662] [pxr_streamer] [error] [23040|5992]transport_client_tcp2.cpp:105 StartAyncRecv: has been disconnected, this= 0x1b9716b6140
+[2023-10-03 17:26:57.345] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1b9661fbce0
+[2023-10-03 17:26:57.345] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1ba29dd2b60, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:57.345] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x1b9a5a3f940
+[2023-10-03 17:26:57.345] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x1ba69123370
+[2023-10-03 17:26:57.345] [pxr_streamer] [debug] [23040|22128]transport_client_tcp2.cpp:73 Stop: called, this= 0x1b9716b6140
+[2023-10-03 17:26:57.346] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:57.346] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:57.346] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:57.346] [pxr_streamer] [debug] [23040|22028]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:57.346] [pxr_streamer] [debug] [23040|22028]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1b9acaee670
+[2023-10-03 17:26:57.346] [pxr_streamer] [info] [23040|22028]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1b9acaee670
+[2023-10-03 17:26:57.346] [pxr_streamer] [info] [23040|25360]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 0, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:57.346] [pxr_streamer] [debug] [23040|22028]streaming_driver_interface_impl.cpp:444 HandleTransportConnect: connect success, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:57.346] [pxr_streamer] [debug] [23040|25360]transport_client_tcp2.cpp:161 HandleConnect: local= 127.0.0.1:65430, this= 0x1b9acaee670
+[2023-10-03 17:26:57.346] [pxr_streamer] [info] [23040|22028]driver_impl.cpp:59 Connect: send connect request : { id = OeGDPtsz, timestamp = 259084008, from = Driver, to = SRS, connection info : {id: "MqCb33riyBwooIf6\000" name: "Streaming Driver SDK\000" module_version: "1.1.1.1\000" protocol_version: "1.0.0.0\000"} }, this= 0x1b9661fbce0
+[2023-10-03 17:26:57.346] [pxr_streamer] [info] [23040|22028]streaming_driver_interface_impl.cpp:332 StartRpcConnect: driver id= MqCb33riyBwooIf6, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:57.346] [pxr_streamer] [info] [23040|22028]driver_impl.cpp:650 ProcessResponseMessage: received connect response : { id = mCEiveYU, timestamp = 259084008, from = SRS, to = Driver, req_id = OeGDPtsz, result_code = 1 }, this= 0x1b9661fbce0
+[2023-10-03 17:26:57.346] [pxr_streamer] [debug] [23040|22028]streaming_driver_interface_impl.cpp:174 NotifyDriverConnectResult: result= 0, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:57.347] [pxr_streamer] [info] [23040|22028]driver_impl.cpp:447 ProcessNotifyMessage: received connect notify : { id = jPGUCJoC, timestamp = 259084009, from = SRS, to = Driver, connection info: { id = PA81E0MGGB050901G, name = PICO 4, module_version = b5653, protocol_version = 1.1.0.0 } }, this= 0x1b9661fbce0
+[2023-10-03 17:26:57.347] [pxr_streamer] [debug] [23040|22028]streaming_driver_interface_impl.cpp:216 NotifyDeviceConnected: device info= id= PA81E0MGGB050901G, name= PICO 4, module version= b5653, protocol version= 1.1.0.0, fov= 2,{0,0,0,0}, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:57.347] [pxr_streamer] [info] [23040|22028]streaming_driver_interface_impl.cpp:62 StartStreaming: (1920,1920), fps= 72, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:57.347] [pxr_streamer] [info] [23040|22028]driver_impl.cpp:207 StartStreaming: send start streaming request : { id = CeGrPS51, timestamp = 259084009, from = Driver, to = SRS, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1b9661fbce0
+[2023-10-03 17:26:57.347] [pxr_streamer] [info] [23040|22028]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = aXg4p2KS, timestamp = 259084009, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingLaunching}, media config : {}, this= 0x1b9661fbce0
+[2023-10-03 17:26:57.347] [pxr_streamer] [debug] [23040|22028]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 1, config= (0,0), fps= 0, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:58.979] [pxr_streamer] [info] [23040|22028]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = 3Q5zWqzJ, timestamp = 259085641, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingReady}, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1b9661fbce0
+[2023-10-03 17:26:58.979] [pxr_streamer] [debug] [23040|22028]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 2, config= (1920,1920), fps= 72, this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:58.980] [pxr_streamer] [warning] [23040|25360]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1b9acaee810
+[2023-10-03 17:26:58.980] [pxr_streamer] [warning] [23040|25360]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 3, this= 0x1b9acaee810
+[2023-10-03 17:26:58.980] [pxr_streamer] [warning] [23040|25360]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 4, this= 0x1b9acaee810
+[2023-10-03 17:26:58.980] [pxr_streamer] [warning] [23040|25360]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 4, this= 0x1b9acaee810
+[2023-10-03 17:26:58.990] [pxr_streamer] [warning] [23040|25360]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 3, this= 0x1b9acaee810
+[2023-10-03 17:26:59.899] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:59.900] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:26:59.900] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:04.563] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:04.708] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:04.709] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:04.924] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:04.924] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:04.924] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:04.926] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:04.927] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:05.535] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:05.548] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:06.062] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:07.007] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:07.007] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:07.173] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:07.230] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:07.314] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:07.314] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:07.507] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:07.507] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:07.507] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:07.507] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:07.508] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:07.508] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:08.201] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:08.827] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.6,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:09.884] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:10.732] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:11.079] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:11.385] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:15.564] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:16.828] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:25.300] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:25.857] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:26.079] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:26.816] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:27.717] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:28.064] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:28.218] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:28.412] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:28.412] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:29.272] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:29.802] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.6,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:30.663] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:31.289] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:31.525] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:31.525] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:32.054] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:32.469] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:34.692] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:35.484] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:39.151] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:39.678] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:40.372] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:40.665] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:40.802] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:41.012] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:41.012] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:41.344] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:41.987] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:47.763] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:48.027] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.6,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:48.722] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:49.431] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:49.943] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:50.222] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:50.375] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:50.583] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:50.583] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:50.846] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:50.959] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:51.153] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:51.612] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.6,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:51.972] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:52.125] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:52.348] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:52.696] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:53.156] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:53.156] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:53.420] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:53.475] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:53.697] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.6,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:54.531] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:54.795] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:54.795] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:27:56.032] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:00.849] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:00.849] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:00.864] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:00.864] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:00.864] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:00.864] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:00.864] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:00.864] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:00.864] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:00.864] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:01.586] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:01.586] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:01.586] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:01.586] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:01.600] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:01.600] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:01.683] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:01.684] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:01.684] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:01.684] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:01.684] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:01.684] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:02.658] [pxr_streamer] [info] [23040|22028]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = dX29JT4O, timestamp = 259149320, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingFinished}, media config : {}, this= 0x1b9661fbce0
+[2023-10-03 17:28:02.658] [pxr_streamer] [debug] [23040|22028]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 3, config= (0,0), fps= 0, this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:14.226] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:53 DisconnectFromService: disconnect from service, this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:14.226] [pxr_streamer] [debug] [23040|22028]streaming_driver_interface_impl.cpp:374 InvokeDisconnectFromService: disconnect from service, this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:14.226] [pxr_streamer] [info] [23040|22028]driver_impl.cpp:81 Disconnect: send disconnect request : { id = ohxVEWaZ, timestamp = 259160889, from = Driver, to = SRS }, this= 0x1b9661fbce0
+[2023-10-03 17:28:14.226] [pxr_streamer] [debug] [23040|22028]transport_client_tcp2.cpp:73 Stop: called, this= 0x1b9acaee670
+[2023-10-03 17:28:14.227] [pxr_streamer] [error] [23040|25360]transport_client_tcp2.cpp:116 operator (): recv error= 1236, msg= The network connection was aborted by the local system., this= 0x1b9acaee670
+[2023-10-03 17:28:14.227] [pxr_streamer] [error] [23040|25360]transport_client_tcp2.cpp:129 HandleReceiveData: has been disconnected, this= 0x1b9acaee670
+[2023-10-03 17:28:14.227] [pxr_streamer] [error] [23040|25360]transport_client_tcp2.cpp:105 StartAyncRecv: has been disconnected, this= 0x1b9acaee670
+[2023-10-03 17:28:30.347] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:22 DriverImpl: Driver created, this= 0x1b92136c740
+[2023-10-03 17:28:30.347] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:20 StreamingDriverInterfaceImpl: callback= 0x1b9213fbee0, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:30.347] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:27 ~StreamingDriverInterfaceImpl: called, this= 0x1b9a5a3ecc0
+[2023-10-03 17:28:30.347] [pxr_streamer] [info] [23040|22128]driver_impl.cpp:27 ~DriverImpl: Driver destroyed, this= 0x1b9661fbce0
+[2023-10-03 17:28:30.347] [pxr_streamer] [debug] [23040|22128]transport_client_tcp2.cpp:73 Stop: called, this= 0x1b9acaee670
+[2023-10-03 17:28:30.348] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:117 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:30.348] [pxr_streamer] [error] [23040|22128]streaming_driver_interface_impl.cpp:119 SetTrackingOrigin: "not connected", connect_state_ != DriverConnectState::kRpcConnected, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:30.348] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:39 ConnectToService: connect to service, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:30.348] [pxr_streamer] [debug] [23040|22896]streaming_driver_interface_impl.cpp:343 InvokeConnectToService: connect to service, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:30.348] [pxr_streamer] [debug] [23040|22896]transport_client_tcp2.cpp:33 Start: buffer size(send\recv): 1048576\1048576, this= 0x1ba359c4c30
+[2023-10-03 17:28:30.348] [pxr_streamer] [info] [23040|22896]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:29000, local=0.0.0.0:0, this= 0x1ba359c4c30
+[2023-10-03 17:28:30.348] [pxr_streamer] [info] [23040|27268]streaming_driver_interface_impl.cpp:141 NotifyConnectResult: connect to service, result= 0, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:30.348] [pxr_streamer] [debug] [23040|22896]streaming_driver_interface_impl.cpp:444 HandleTransportConnect: connect success, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:30.348] [pxr_streamer] [debug] [23040|27268]transport_client_tcp2.cpp:161 HandleConnect: local= 127.0.0.1:60714, this= 0x1ba359c4c30
+[2023-10-03 17:28:30.348] [pxr_streamer] [info] [23040|22896]driver_impl.cpp:59 Connect: send connect request : { id = KhLL3Zyu, timestamp = 259177010, from = Driver, to = SRS, connection info : {id: "1ezgQZyC9lmrMMI3\000" name: "Streaming Driver SDK\000" module_version: "1.1.1.1\000" protocol_version: "1.0.0.0\000"} }, this= 0x1b92136c740
+[2023-10-03 17:28:30.348] [pxr_streamer] [info] [23040|22896]streaming_driver_interface_impl.cpp:332 StartRpcConnect: driver id= 1ezgQZyC9lmrMMI3, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:30.348] [pxr_streamer] [info] [23040|22896]driver_impl.cpp:650 ProcessResponseMessage: received connect response : { id = d4THdgjY, timestamp = 259177010, from = SRS, to = Driver, req_id = KhLL3Zyu, result_code = 1 }, this= 0x1b92136c740
+[2023-10-03 17:28:30.348] [pxr_streamer] [debug] [23040|22896]streaming_driver_interface_impl.cpp:174 NotifyDriverConnectResult: result= 0, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:30.348] [pxr_streamer] [info] [23040|22896]driver_impl.cpp:447 ProcessNotifyMessage: received connect notify : { id = 9kTkt7WL, timestamp = 259177011, from = SRS, to = Driver, connection info: { id = PA81E0MGGB050901G, name = PICO 4, module_version = b5653, protocol_version = 1.1.0.0 } }, this= 0x1b92136c740
+[2023-10-03 17:28:30.348] [pxr_streamer] [debug] [23040|22896]streaming_driver_interface_impl.cpp:216 NotifyDeviceConnected: device info= id= PA81E0MGGB050901G, name= PICO 4, module version= b5653, protocol version= 1.1.0.0, fov= 2,{0,0,0,0}, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:30.349] [pxr_streamer] [info] [23040|22896]streaming_driver_interface_impl.cpp:62 StartStreaming: (1920,1920), fps= 72, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:30.349] [pxr_streamer] [info] [23040|22896]driver_impl.cpp:207 StartStreaming: send start streaming request : { id = jMBryetp, timestamp = 259177011, from = Driver, to = SRS, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1b92136c740
+[2023-10-03 17:28:30.349] [pxr_streamer] [info] [23040|22896]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = oeNtbIH4, timestamp = 259177011, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingLaunching}, media config : {}, this= 0x1b92136c740
+[2023-10-03 17:28:30.349] [pxr_streamer] [debug] [23040|22896]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 1, config= (0,0), fps= 0, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:32.843] [pxr_streamer] [info] [23040|22896]driver_impl.cpp:507 ProcessNotifyMessage: send update driver state request : , id = oBNei5oF, timestamp = 259179505, from = SRS, to = Driver, streaming state : {streaming_state: kStreamingReady}, media config : {render_width: 1920 render_height: 1920 fps: 72}, this= 0x1b92136c740
+[2023-10-03 17:28:32.843] [pxr_streamer] [debug] [23040|22896]streaming_driver_interface_impl.cpp:252 NotifyStreamingStateUpdated: state= 2, config= (1920,1920), fps= 72, this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:32.843] [pxr_streamer] [warning] [23040|27268]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1ba359c4dd0
+[2023-10-03 17:28:32.843] [pxr_streamer] [warning] [23040|27268]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 3, this= 0x1ba359c4dd0
+[2023-10-03 17:28:32.843] [pxr_streamer] [warning] [23040|27268]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1ba359c4dd0
+[2023-10-03 17:28:32.843] [pxr_streamer] [warning] [23040|27268]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1ba359c4dd0
+[2023-10-03 17:28:32.843] [pxr_streamer] [warning] [23040|27268]transport_data_receiver.cpp:89 ProcessReceivedData: recv multi-packet,count = 2, this= 0x1ba359c4dd0
+[2023-10-03 17:28:59.445] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:28:59.652] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:05.934] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:06.782] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:20.103] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:20.103] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:23.673] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.25,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:23.674] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:23.674] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:23.869] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:23.896] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:23.950] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:23.950] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:24.704] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:24.704] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 1a\d\f= (0.5,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:25.314] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.25,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:25.314] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:25.314] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:25.314] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:25.661] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:25.661] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:25.675] [pxr_streamer] [debug] [23040|22128]streaming_driver_interface_impl.cpp:102 VibrateController: index= 0a\d\f= (0.4,0,0), this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:28.039] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:78 StopStreaming: stop streaming, this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:28.039] [pxr_streamer] [info] [23040|22896]driver_impl.cpp:230 StopStreaming: send stop streaming request : { id = gcqEa3Hf, timestamp = 259234701, from = Driver, to = SRS }, this= 0x1b92136c740
+[2023-10-03 17:29:28.039] [pxr_streamer] [info] [23040|22128]streaming_driver_interface_impl.cpp:53 DisconnectFromService: disconnect from service, this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:28.039] [pxr_streamer] [debug] [23040|22896]streaming_driver_interface_impl.cpp:374 InvokeDisconnectFromService: disconnect from service, this= 0x1b9a5a3d3c0
+[2023-10-03 17:29:28.039] [pxr_streamer] [info] [23040|22896]driver_impl.cpp:81 Disconnect: send disconnect request : { id = CUA6L3F8, timestamp = 259234701, from = Driver, to = SRS }, this= 0x1b92136c740
+[2023-10-03 17:29:28.039] [pxr_streamer] [debug] [23040|22896]transport_client_tcp2.cpp:73 Stop: called, this= 0x1ba359c4c30
+[2023-10-03 17:29:28.039] [pxr_streamer] [error] [23040|27268]transport_client_tcp2.cpp:116 operator (): recv error= 1236, msg= The network connection was aborted by the local system., this= 0x1ba359c4c30
+[2023-10-03 17:29:28.039] [pxr_streamer] [error] [23040|27268]transport_client_tcp2.cpp:129 HandleReceiveData: has been disconnected, this= 0x1ba359c4c30
+[2023-10-03 17:29:28.039] [pxr_streamer] [error] [23040|27268]transport_client_tcp2.cpp:105 StartAyncRecv: has been disconnected, this= 0x1ba359c4c30
