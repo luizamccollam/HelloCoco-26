@@ -22,7 +22,7 @@ MonoBehaviour:
   enableETFR: 0
   latelatching: 0
   latelatchingDebug: 0
-  enableSubsampled: 0
+  enableSubsampled: 1
   bodyTracking: 1
   adaptiveResolution: 0
   stageMode: 0
